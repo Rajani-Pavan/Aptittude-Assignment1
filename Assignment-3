@@ -1,0 +1,144 @@
+Aptitude Assignment 3
+
+1.	Write two quadratic equations such that the sum of roots equals twice the product of roots?
+
+Let’s assume the leading coefficient (a) be 1.
+
+Equation 1:
+Let the roots be x and y.
+Sum of roots: x + y = -b
+Product of roots: xy = c/a
+
+Using the given condition, we have:
+x + y = 2(xy)
+x + y = 2xy
+
+Rearranging the equation, we have:
+2xy - x - y = 0
+
+Equation 2:
+Similarly, let the roots be p and q.
+Sum of roots: p + q = -d
+Product of roots: pq = e/a
+
+Using the given condition, we have:
+p + q = 2(pq)
+p + q = 2pq
+
+Rearranging the equation, we have:
+2pq - p - q = 0
+
+Finally, if the leading coefficient (a) is other than 1, and we multiply both equations by a. The final quadratic equations would be:
+
+Equation 1: 2axy - ax - ay = 0
+Equation 2: 2apq - ap - aq = 0
+
+Hence, these equations satisfy the condition where the sum of roots equals twice the product of roots.
+
+ 
+2.	2x+3y=12 has (2,3) as its solution or not? 
+
+The values of x and y can be substituted into the equation and check if the equation holds true.
+
+Let's substitute x = 2 and y = 3 into the equation:
+
+2(2) + 3(3) = 4 + 9 = 13
+
+Since 13 is not equal to 12, we can conclude that (2, 3) is not a solution to the equation 2x + 3y = 12.
+ 
+3.	Find possible coordinates of (x,y) such that point (1,1), (2,2) & (x,y) are collinear? 
+
+The slope between the given points can be calculated if the slope between (1, 1) and (2, 2) is equal to the slope between (1, 1) and (x, y), then the three points are collinear.
+
+The slope between two points (x1, y1) and (x2, y2) is given by the formula:
+
+slope = (y2 - y1) / (x2 - x1)
+
+Let's calculate the slope between (1, 1) and (2, 2):
+
+slope1 = (2 - 1) / (2 - 1) = 1 / 1 = 1
+
+Now, let's calculate the slope between (1, 1) and (x, y):
+
+slope2 = (y - 1) / (x - 1)
+
+For the three points to be collinear, slope1 must be equal to slope2. So, we can equate them:
+
+1 = (y - 1) / (x - 1)
+
+Cross-multiplying, we get:
+
+x - 1 = y - 1
+
+Simplifying, we find:
+
+x = y
+
+Therefore, any coordinate (x, y) where x is equal to y would satisfy the condition for collinearity with points (1, 1) and (2, 2). Some possible examples include (3, 3), (4, 4), (-1, -1), etc.
+
+Hence, the possible coordinates (x, y) such that points (1, 1), (2, 2), and (x, y) are collinear are those where x is equal to y.
+ 
+4.	Find out all possible values of a & b for which the ratio of a^3+b^3 to a^3-b^3 is 1:1 a,b are real numbers. 
+
+We can set up the equation and solve for the variables.
+
+The ratio 1:1 can also be expressed as 1/1. So, we have the equation:
+
+(a^3 + b^3) / (a^3 - b^3) = 1/1
+
+To eliminate the denominator: we can multiply both sides by (a^3 - b^3) 
+
+(a^3 + b^3) = (a^3 - b^3)
+
+Expanding the left side using the sum of cubes formula (a^3 + b^3 = (a + b)(a^2 - ab + b^2)), we have:
+
+(a + b)(a^2 - ab + b^2) = (a^3 - b^3)
+
+Now, let's simplify further by expanding the right side:
+
+(a + b)(a^2 - ab + b^2) = (a - b)(a^2 + ab + b^2)
+
+Since the left side is equal to the right side, we can equate the corresponding terms:
+
+a + b = a - b
+a^2 - ab + b^2 = a^2 + ab + b^2
+
+Simplifying the first equation, we get:
+
+2b = 0
+b = 0
+
+Substituting b = 0 into the second equation, we have:
+
+a^2 - 0 + 0 = a^2 + 0 + 0
+a^2 = a^2
+
+This equation is satisfied for all real values of a.
+
+In conclusion, for the ratio of a^3 + b^3 to a^3 - b^3 to be 1:1, the possible values of a are all real numbers, and b can be any real number, but it must be equal to 0 (b = 0).
+ 
+5.	The triangle area formed by the lines y=x, y-axis and y=3 line will be?
+ 
+We can determine the coordinates of the vertices of the triangle and then calculate the area using the formula for the area of a triangle.
+
+The three lines intersect at three points: (0, 0), (3, 3), and (3, 3).
+
+Let's consider the points (0, 0), (3, 3), and (0, 3) as the vertices of the triangle.
+
+Using the formula for the area of a triangle with vertices (x1, y1), (x2, y2), and (x3, y3):
+
+Area = 0.5 * |x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)|
+
+Plugging in the coordinates, we have:
+
+Area = 0.5 * |0 * (3 - 3) + 3 * (3 - 0) + 0 * (0 - 3)|
+
+Area = 0.5 * |0 + 3 * 3 + 0|
+
+Area = 0.5 * |9|
+
+Area = 0.5 * 9
+
+Area = 4.5
+
+Therefore, the area of the triangle formed by the lines y = x, y-axis, and y = 3 is 4.5 square units.
