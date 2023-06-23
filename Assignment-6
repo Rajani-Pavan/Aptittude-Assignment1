@@ -1,0 +1,99 @@
+Aptitude Assignment 6
+ 
+1.	A does 4/5 th of work in 3/5 of time as compared to B. Together they finish the work in 12 days. In how many days A alone will complete the work? 
+
+Let B's rate be x. Then A's rate is 4/5x/(3/5) = 4/3x. 
+A's rate + B's rate = 1/12 
+(4/3x) + x = 1/12 
+5/3x = 1/12
+x = 1/180 
+A's rate = 4/3*x = 1/20 
+A can complete the work in 20 days. 
+So the answer is 20
+
+2.	1 men, 3 women and 4 children finish work in 96 hour while 2 men and 8 children finish the work in 80 hours, and 2 men and 3 women finish the same work in 120 hours. Find the time in which the work can be completed by 10 men and 5 women? 
+
+Let 1 man's 1 hour work = x, 1 woman's 1 hour work = y, and 1 child's 1 hour work = z. Then, 
+1x + 3y + 4z = 1/96 
+2x + 8z = 1/80 
+2x + 3y = 1/120 
+Solving the above equations, we get: 
+x = 1/720 
+y = 1/1440 
+z = 1/2880 
+10 men's 1 hour work = 10x = 10/720 = 1/72 
+5 women's 1 hour work = 5y = 5/1440 = 1/288 
+10 men and 5 women's 1 hour work = 1/72 + 1/288 = 1/144 
+Therefore, 10 men and 5 women can complete the work in 144 hours. So the answer is 144
+3.	The sales of a cinema ticket increase by 57 1/7 %, and the price of tickets also increases by 16 2/3%. Find the percentage increase in the revenue collection?
+
+To find the percentage increase in the revenue collection, we need to consider the increase in both the number of tickets sold and the price of each ticket.
+
+Let's assume the original number of tickets sold is 100 and the original price of each ticket is $1.
+
+After an increase of 57 1/7% in the number of tickets sold, the new number of tickets sold would be:
+100 + (57 1/7)% of 100
+= 100 + (57.143%) of 100
+= 100 + 57.143
+= 157.143
+
+After an increase of 16 2/3% in the price of each ticket, the new price of each ticket would be:
+$1 + (16 2/3)% of $1
+= $1 + (16.667%) of $1
+= $1 + 0.16667
+= $1.16667
+
+The new revenue collection can be calculated by multiplying the new number of tickets sold by the new price of each ticket:
+New revenue collection = 157.143 * $1.16667
+
+The percentage increase in the revenue collection can be calculated as the percentage difference between the new revenue collection and the original revenue collection, divided by the original revenue collection, multiplied by 100:
+
+Percentage increase = ((New revenue collection - Original revenue collection) / Original revenue collection) * 100
+
+Original revenue collection = 100 (number of tickets sold) * $1 (price of each ticket) = $100
+
+Percentage increase = ((157.143 * $1.16667 - $100) / $100) * 100
+
+Calculating this:
+
+Percentage increase = ((183.33334 - 100) / 100) * 100
+
+Percentage increase = (83.33334 / 100) * 100
+
+Percentage increase = 83.33334%
+
+Therefore, the percentage increase in the revenue collection is approximately 83.33334%.
+
+4.	In a garrison, there was sufficient food for 1600 soldiers for 60 days. Each soldier consumes 900 grams of food every day. After 40 days, 400 soldiers left the camp. How long the food will last for the remaining soldiers if they consume 1000 grams of food every day. 
+
+To solve this problem, we can use the concept of the total amount of food consumed and the remaining food supply.
+Given:
+- Sufficient food for 1600 soldiers for 60 days.
+- Each soldier consumes 900 grams of food per day.
+First, let's calculate the total amount of food available initially:
+Total food supply = 1600 soldiers * 900 grams/soldier * 60 days = 86,400,000 grams of food
+After 40 days, 400 soldiers leave the camp. So, the remaining number of soldiers is 1600 - 400 = 1200 soldiers.
+Now, we need to calculate the remaining food supply after 40 days:
+Food consumed by 1600 soldiers in 40 days = 1600 soldiers * 900 grams/soldier * 40 days = 57,600,000 grams of food
+Remaining food supply = Total food supply - Food consumed by 1600 soldiers in 40 days = 86,400,000 grams - 57,600,000 grams = 28,800,000 grams of food
+Now, we need to find out how long this remaining food supply will last for 1200 soldiers who consume 1000 grams of food per day.
+Food consumed by 1200 soldiers per day = 1200 soldiers * 1000 grams/soldier = 1,200,000 grams per day
+Time the remaining food supply will last = Remaining food supply / Food consumed per day
+= 28,800,000 grams / 1,200,000 grams per day
+= 24 days
+Therefore, the remaining food supply will last for 24 days for the remaining 1200 soldiers if they consume 1000 grams of food per day.
+ 
+5.	A dealer sold a bicycle at a profit of 10%. Had he bought the bicycle at 10% less price and sold it at a price Rs. 60 more, he would have gained 25%. The cost price of the bicycle was? 
+
+Let's assume the original cost price of the bicycle is 'x'.
+According to the given information:
+1. The dealer sold the bicycle at a profit of 10%, which means the selling price is 110% of the cost price: 1.1x.
+2. If the dealer had bought the bicycle at 10% less price (0.9x) and sold it at a price Rs. 60 more, he would have gained 25%, which means the selling price would be 125% of the cost price: 1.25(0.9x).
+We can set up the equation based on the above information:
+1.1x = 1.25(0.9x) + 60
+Simplifying this equation:
+1.1x = 1.125x + 60
+0.025x = 60
+x = 60 / 0.025
+x = 2400
+Therefore, the cost price of the bicycle was Rs. 2400.
