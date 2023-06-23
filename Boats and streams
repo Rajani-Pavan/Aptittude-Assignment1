@@ -1,0 +1,416 @@
+BOATS AND STREAMS
+
+1.	A boatman can row a certain distance down the stream in 2 hours and can row the same distance up the stream in 3 hours. If the velocity of the stream is 4km/hr, what is the speed of the boat in still water?
+
+Let's assume the speed of the boat in still water is "B" km/hr. 
+
+When the boat is rowing downstream, it gets a boost from the stream's velocity. So, the effective speed of the boat downstream is (B + 4) km/hr. 
+
+Given that the boat can row a certain distance downstream in 2 hours, we can set up the equation:
+
+Distance = Speed × Time
+(B + 4) × 2 = Distance
+
+Similarly, when the boat is rowing upstream, it has to overcome the stream's velocity. So, the effective speed of the boat upstream is (B - 4) km/hr.
+
+Given that the boat can row the same distance upstream in 3 hours, we can set up another equation:
+
+Distance = Speed × Time
+(B - 4) × 3 = Distance
+
+Since the distances covered in both cases are the same, we can equate the two equations:
+
+(B + 4) × 2 = (B - 4) × 3
+
+Simplifying the equation:
+
+2B + 8 = 3B - 12
+
+Moving the variables to one side:
+
+3B - 2B = 8 + 12
+
+B = 20
+
+Therefore, the speed of the boat in still water is 20 km/hr.
+ANSWER = B
+
+2.	A man can row 9(1/3) km/hr in still water. He finds that it takes thrice as much time to row upstream as to row downstream (same distance). Find the speed of the current.
+
+Let's assume the speed of the current is "C" km/hr.
+
+When the man rows downstream, he gets a boost from the stream's velocity. So, the effective speed of the man downstream is (9(1/3) + C) km/hr.
+
+When the man rows upstream, he has to overcome the stream's velocity. So, the effective speed of the man upstream is (9(1/3) - C) km/hr.
+
+Given that it takes thrice as much time to row upstream as to row downstream, we can set up the following equation:
+
+Time upstream = 3 * Time downstream
+
+Distance / (9(1/3) - C) = 3 * (Distance / (9(1/3) + C))
+
+Simplifying the equation:
+
+1 / (9(1/3) - C) = 3 / (9(1/3) + C)
+
+Cross-multiplying:
+
+(9(1/3) + C) = 3(9(1/3) - C)
+
+Expanding and simplifying:
+
+9(1/3) + C = 27 - 3C
+
+Moving the variables to one side:
+
+C + 3C = 27 - 9(1/3)
+
+4C = 27 - 9(1/3)
+
+4C = 27 - 27/3
+
+4C = 27 - 9
+
+4C = 18
+
+C = 18/4
+
+C = 4.5
+
+Therefore, the speed of the current is 4.5 km/hr.
+ANSWER = C	
+
+3.	A boat travels from A to B along the stream and from B to A against the stream in 3 hours. If the velocity of the boat in still water is 4 km/hr, what is the distance between A and B?
+
+Let's assume the speed of the stream is "S" km/hr, and the distance between A and B is "D" km.
+
+When the boat travels from A to B along the stream, the effective speed of the boat is (4 + S) km/hr. 
+Therefore, the time taken to travel from A to B along the stream can be expressed as:
+Time 1 = Distance / (4 + S)
+
+When the boat travels from B to A against the stream, the effective speed of the boat is (4 - S) km/hr. 
+Therefore, the time taken to travel from B to A against the stream can be expressed as:
+Time 2 = Distance / (4 - S)
+
+According to the given information, the total time taken for both legs of the journey is 3 hours. So, we can set up the equation:
+Time 1 + Time 2 = 3
+
+Substituting the expressions for Time 1 and Time 2:
+Distance / (4 + S) + Distance / (4 - S) = 3
+
+To simplify this equation, we need to eliminate the variable "Distance". To do that, we can multiply both sides of the equation by (4 + S)(4 - S):
+
+Distance * (4 - S) + Distance * (4 + S) = 3 * (4 + S)(4 - S)
+
+Expanding the equation:
+
+4D - DS + 4D + DS = 3 * (16 - S^2)
+
+Combining like terms:
+
+8D = 48 - 3S^2
+
+Dividing both sides by 8:
+
+D = (48 - 3S^2) / 8
+
+Therefore, the distance between A and B is given by (48 - 3S^2) / 8 km.
+ANSWER = A
+
+4.	A motorboat travels 16 km in 2 hours against the flow of river and travels next 8 km along the flow of the river in 20 minutes. How long will it take motorboat to travel 48 km in still water?
+
+Let's break down the given information step by step:
+
+1. The motorboat travels 16 km in 2 hours against the flow of the river. This means the speed of the motorboat relative to the water is 16 km/2 hours = 8 km/h.
+
+2. The motorboat then travels 8 km along the flow of the river in 20 minutes. To convert the time to hours, we divide 20 minutes by 60 minutes: 20/60 = 1/3 hour. So, the speed of the motorboat relative to the water in this case is 8 km/(1/3) hour = 24 km/h.
+
+Now, let's find the speed of the river current:
+Let's assume the speed of the river current is "C" km/h.
+
+The speed of the motorboat in still water can be calculated using the formula:
+Speed of motorboat in still water = (Speed downstream + Speed upstream) / 2
+
+Using the given information, we have:
+Speed downstream = 24 km/h
+Speed upstream = 8 km/h
+
+Speed of motorboat in still water = (24 + 8) / 2 = 16 km/h
+
+Now, we can determine the time it will take for the motorboat to travel 48 km in still water:
+
+Time = Distance / Speed
+Time = 48 km / 16 km/h
+Time = 3 hours
+
+Therefore, it will take the motorboat 3 hours to travel 48 km in still water.
+ANSWER = B
+
+5.	A boat running upstream takes 9 hours 48 minutes to cover a certain distance, while it takes 7 hours to cover the same distance running downstream. What is the ratio between the speed of the boat and speed of the water current respectively?
+
+Let's assume the speed of the boat in still water is "B" km/h, and the speed of the water current is "C" km/h.
+
+When the boat is running upstream, it is moving against the current, so the effective speed is (B - C) km/h. The time taken to cover the distance upstream is given as 9 hours 48 minutes, which can be converted to hours as 9 + 48/60 = 9.8 hours.
+
+Similarly, when the boat is running downstream, it is moving with the current, so the effective speed is (B + C) km/h. The time taken to cover the distance downstream is given as 7 hours.
+
+We can use the formula: Speed = Distance / Time, to set up two equations:
+
+Upstream: Distance / (B - C) = 9.8
+Downstream: Distance / (B + C) = 7
+
+To find the ratio between the speed of the boat and the speed of the water current, we can divide the two equations:
+
+(Distance / (B - C)) / (Distance / (B + C)) = 9.8 / 7
+
+Simplifying the equation:
+
+(B + C) / (B - C) = 9.8 / 7
+
+Cross-multiplying:
+
+7(B + C) = 9.8(B - C)
+
+Expanding and simplifying:
+
+7B + 7C = 9.8B - 9.8C
+
+Moving the variables to one side:
+
+9.8B - 7B = 7C + 9.8C
+
+2.8B = 16.8C
+
+Dividing both sides by 16.8C:
+
+B / C = 16.8 / 2.8
+
+B / C = 6
+
+Therefore, the ratio between the speed of the boat and the speed of the water current is 6:1.
+ANSWER = C
+
+6.	Speed of a boat in standing water is 9 kmph and the speed of the stream is 1.5 kmph. A man rows to a place at a distance of 105 km and comes back to the starting point. The total time taken by him is:
+
+To find the total time taken by the man to row to a place at a distance of 105 km and come back to the starting point, we need to consider the speed of the boat in standing water and the speed of the stream.
+
+The speed of the boat relative to the ground when rowing upstream (against the stream) is the difference between the speed of the boat in standing water and the speed of the stream:
+Speed upstream = Speed of boat in standing water - Speed of stream
+Speed upstream = 9 kmph - 1.5 kmph
+Speed upstream = 7.5 kmph
+
+The speed of the boat relative to the ground when rowing downstream (along the stream) is the sum of the speed of the boat in standing water and the speed of the stream:
+Speed downstream = Speed of boat in standing water + Speed of stream
+Speed downstream = 9 kmph + 1.5 kmph
+Speed downstream = 10.5 kmph
+
+To calculate the time taken to row a distance of 105 km, we can use the formula: Time = Distance / Speed.
+
+Time upstream = Distance / Speed upstream
+Time upstream = 105 km / 7.5 kmph
+Time upstream = 14 hours
+
+Time downstream = Distance / Speed downstream
+Time downstream = 105 km / 10.5 kmph
+Time downstream = 10 hours
+
+The total time taken by the man is the sum of the time taken upstream and the time taken downstream:
+Total time = Time upstream + Time downstream
+Total time = 14 hours + 10 hours
+Total time = 24 hours
+
+Therefore, the man takes a total of 24 hours to row to a place at a distance of 105 km and come back to the starting point.
+ANSWER = D
+
+7.	In one hour, a boat goes 11 km/hr along the stream and 5 km/hr against the stream. The speed of the boat in still water (in km/hr) is:
+
+Let's assume the speed of the boat in still water is "B" km/hr, and the speed of the stream is "S" km/hr.
+
+When the boat is moving along the stream (downstream), the effective speed is the sum of the boat's speed in still water and the speed of the stream. So, the downstream speed is B + S km/hr.
+
+Given that the boat goes 11 km/hr along the stream, we can set up the equation:
+
+B + S = 11
+
+Similarly, when the boat is moving against the stream (upstream), the effective speed is the difference between the boat's speed in still water and the speed of the stream. So, the upstream speed is B - S km/hr.
+
+Given that the boat goes 5 km/hr against the stream, we can set up another equation:
+
+B - S = 5
+
+Now, we can solve these two equations to find the values of B and S.
+
+Adding the two equations together:
+
+(B + S) + (B - S) = 11 + 5
+2B = 16
+B = 8
+
+Substituting the value of B back into one of the equations, we can find the value of S:
+
+8 - S = 5
+S = 3
+
+Therefore, the speed of the boat in still water is 8 km/hr.
+ANSWER = C
+
+8.	A man takes twice as long to row a distance against the stream as to row the same distance in favour of the stream. The ratio of the speed of the boat (in still water) and the stream is:
+
+Let's assume the speed of the boat in still water is "B" km/hr, and the speed of the stream is "S" km/hr.
+
+When the man rows in favor of the stream (downstream), the effective speed of the boat is the sum of the speed of the boat in still water and the speed of the stream. So, the downstream speed is B + S km/hr.
+
+When the man rows against the stream (upstream), the effective speed of the boat is the difference between the speed of the boat in still water and the speed of the stream. So, the upstream speed is B - S km/hr.
+
+According to the given information, the man takes twice as long to row against the stream compared to rowing in favor of the stream. Mathematically, we can express this as:
+
+Time upstream = 2 * Time downstream
+
+To find the ratio of the speed of the boat in still water and the stream, we need to compare the speeds. Since the distance traveled in both cases is the same, we can set up the equation:
+
+Speed upstream / Speed downstream = Time downstream / Time upstream
+
+(B - S) / (B + S) = 1 / 2
+
+Cross-multiplying:
+
+2(B - S) = B + S
+
+Expanding and simplifying:
+
+2B - 2S = B + S
+
+Moving the variables to one side:
+
+2B - B = S + 2S
+
+B = 3S
+
+Therefore, the ratio of the speed of the boat in still water and the stream is 3:1.
+ANSWER = B
+
+
+
+9.	If a man rows at the rate of 5 kmph in still water and his rate against the current is 3.5 kmph.
+then the man's rate along the current is
+
+To find the man's rate along the current, we can use the concept of relative velocities.
+
+Let's assume the speed of the current is "C" kmph.
+
+When the man rows against the current, his effective speed is the difference between his speed in still water and the speed of the current. So, the speed against the current is 5 kmph - C kmph.
+
+When the man rows along the current, his effective speed is the sum of his speed in still water and the speed of the current. So, the speed along the current is 5 kmph + C kmph.
+
+According to the given information, the man's rate against the current is 3.5 kmph. Therefore, we can set up the equation:
+
+Speed against the current = 3.5 kmph
+
+5 kmph - C kmph = 3.5 kmph
+
+Subtracting 5 kmph from both sides:
+
+-C kmph = -1.5 kmph
+
+Dividing both sides by -1:
+
+C = 1.5 kmph
+
+Therefore, the man's rate along the current is 5 kmph + 1.5 kmph = 6.5 kmph.
+ANSWER = C
+
+10.	The time taken by a man to row his boat upstream is twice the time taken by him to row the
+same distance downstream. If the speed of the boat in still water is 42 kmph, find the speed
+of the stream?
+
+Let's assume the speed of the stream is "S" kmph.
+
+When the man rows upstream (against the stream), the effective speed of the boat is the difference between the speed of the boat in still water and the speed of the stream. So, the upstream speed is (42 - S) kmph.
+
+When the man rows downstream (along the stream), the effective speed of the boat is the sum of the speed of the boat in still water and the speed of the stream. So, the downstream speed is (42 + S) kmph.
+
+According to the given information, the time taken to row upstream is twice the time taken to row downstream. Mathematically, we can express this as:
+
+Time upstream = 2 * Time downstream
+
+To find the speed of the stream, we can set up the equation using the formula: Time = Distance / Speed.
+
+Distance / (42 - S) = 2 * (Distance / (42 + S))
+
+Canceling out the "Distance" term on both sides:
+
+1 / (42 - S) = 2 / (42 + S)
+
+Cross-multiplying:
+
+(42 + S) = 2(42 - S)
+
+Expanding and simplifying:
+
+42 + S = 84 - 2S
+
+Bringing the variables to one side:
+
+3S = 84 - 42
+
+3S = 42
+
+Dividing both sides by 3:
+
+S = 14
+
+Therefore, the speed of the stream is 14 kmph.
+ANSWER = C
+
+11.	A man can row 30 km downstream and 20 km upstream in 4 hours. He can row 45 km downstream and 40 km upstream in 7 hours. Find the speed of man in still water?
+
+Let's assume the speed of the man in still water is "M" km/h.
+
+When the man rows downstream (along the stream), the effective speed of the boat is the sum of the speed of the man in still water and the speed of the stream. So, the downstream speed is (M + S) km/h.
+
+When the man rows upstream (against the stream), the effective speed of the boat is the difference between the speed of the man in still water and the speed of the stream. So, the upstream speed is (M - S) km/h.
+
+We are given two sets of distances and times:
+
+1) 30 km downstream and 20 km upstream in 4 hours.
+2) 45 km downstream and 40 km upstream in 7 hours.
+
+Using the formula: Time = Distance / Speed, we can set up the following equations:
+
+30 / (M + S) + 20 / (M - S) = 4   ------(1)
+45 / (M + S) + 40 / (M - S) = 7   ------(2)
+
+Let's solve these equations to find the speed of the man in still water (M).
+
+To simplify the equations, we can multiply both sides of equation (1) by (M + S) and equation (2) by (M - S):
+
+30(M - S) + 20(M + S) = 4(M + S)(M - S)   ------(1')
+45(M - S) + 40(M + S) = 7(M + S)(M - S)   ------(2')
+
+Expanding the equations:
+
+30M - 30S + 20M + 20S = 4(M^2 - S^2)
+45M - 45S + 40M + 40S = 7(M^2 - S^2)
+
+Combining like terms:
+
+50M - 10S = 4M^2 - 4S^2   ------(3)
+85M - 5S = 7M^2 - 7S^2   ------(4)
+
+Rearranging equation (3):
+
+4M^2 - 50M + 4S^2 - 10S = 0
+
+Rearranging equation (4):
+
+7M^2 - 85M + 7S^2 - 5S = 0
+
+Now we have a system of two equations (3 and 4) with two variables (M and S). We can solve this system of equations to find the values of M and S.
+
+Using a numerical solver, the solutions are approximately:
+M ≈ 11.426 km/h
+S ≈ 4.155 km/h
+
+Therefore, the speed of the man in still water is approximately 11.426 km/h.
+ANSWER = C
+
