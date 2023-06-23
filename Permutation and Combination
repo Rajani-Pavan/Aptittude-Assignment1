@@ -1,0 +1,298 @@
+Permutations and Combination
+
+1.	A round table conference is to be held among 25 delegates from 25 countries. In how many ways can they be seated if two particular delegates are always to sit together?
+
+If two particular delegates are always seated together, we can treat them as a single entity. This reduces the problem to arranging 24 entities (23 individual delegates + 1 pair of delegates) around a circular table.
+The number of ways to arrange n distinct objects in a circular arrangement is (n-1)!. Therefore, in this case, the number of ways to arrange the 24 entities around the table is (24-1)! = 23!.
+However, since the pair of delegates can also be arranged among themselves, we need to multiply the result by 2. Therefore, the total number of ways the delegates can be seated is:
+Total number of ways = 2 * 23!
+ANSWER = B
+
+2.	In how many ways can 5 boys and 4 girls be seated in a row, so that they alternate?
+
+To find the number of ways to seat 5 boys and 4 girls in a row, alternating between them, we can consider the boys and girls as separate groups.
+First, we need to arrange the 5 boys among themselves. This can be done in 5! (5 factorial) ways.
+Next, we need to arrange the 4 girls among themselves. This can be done in 4! ways.
+Since the boys and girls are alternating, the number of ways to arrange them together would be the product of the number of ways to arrange the boys and the number of ways to arrange the girls.
+Therefore, the total number of ways to seat the boys and girls alternately is:
+Total number of ways = 5! * 4!
+ANSWER = B
+
+3.	In how many ways can the letters of the word 'LEADER' be arranged?
+The word 'LEADER' has 6 letters.
+
+To find the number of ways the letters can be arranged, we can use the concept of permutations.
+In this case, since all the letters are unique, we can arrange them in 6! (6 factorial) ways.
+Therefore, the total number of ways to arrange the letters of the word 'LEADER' is:
+Total number of ways = 6! = 6 x 5 x 4 x 3 x 2 x 1 = 720 ways.
+ANSWER = D
+
+4.	A box contains 2 white balls, 3 black balls and 4 red balls. In how many ways can
+3 balls be drawn from the box, if at least one black ball is to be included in the draw?
+
+To find the number of ways to draw 3 balls from the box, with at least one black ball included, we can consider the different cases:
+
+Case 1: Drawing exactly one black ball:
+There are 3 ways to choose one black ball, and for the remaining 2 balls, we can choose them from the remaining 8 balls (2 white + 3 black + 4 red). This can be done in C(8, 2) ways (combination of 8 objects taken 2 at a time).
+
+Case 2: Drawing exactly two black balls:
+There are C(3, 2) ways to choose two black balls, and for the remaining 1 ball, we can choose it from the remaining 8 balls. This can be done in C(8, 1) ways.
+
+Case 3: Drawing all three black balls:
+There is only 1 way to choose all three black balls.
+
+Therefore, the total number of ways to draw 3 balls with at least one black ball is the sum of the three cases:
+
+Total number of ways = C(8, 2) + C(3, 2) + 1
+
+Using the combination formula C(n, r) = n! / (r! * (n-r)!), we can calculate the values:
+
+Total number of ways = (8! / (2! * (8-2)!)) + (3! / (2! * (3-2)!)) + 1
+                      = (8! / (2! * 6!)) + (3! / (2! * 1!)) + 1
+                      = (8 * 7 / 2) + (3 / 2) + 1
+                      = 28 + 3 + 1
+                      = 32
+Therefore, there are 32 ways to draw 3 balls from the box, with at least one black ball included.
+ANSWER = A
+
+5.	How many numbers greater than a million can be formed with the digits
+2,3,0,4,3,3,3
+
+There are 360 numbers greater than a million that can be formed with the digits 2, 3, 0, 4, 3, 3, 3.
+To count the number of these numbers, we can first count the number of all 7-digit numbers that can be formed with these digits. There are 7! ways to arrange 7 distinct objects, but we need to divide by 2! because 2 of the digits are the same. This gives us 2520 ways to arrange the 7 digits.
+However, not all of these 7-digit numbers are greater than a million. If the million's digit is 0, then the number is less than a million. There are 6 ways to choose the million's digit (0, 2, 3, 3, 3, or 4), so there are 6 * 2520 = 15120 numbers that are less than a million.
+Therefore, there are 2520 - 15120 = 1008 numbers that are greater than a million. However, this count includes some numbers that have 0 as the hundred-thousand's digit. There are 3 ways to choose the hundred-thousand's digit (0, 2, or 3), so there are 3 * 1008 = 3024 numbers that have 0 as the hundred-thousand's digit.
+Therefore, the final answer is 1008 - 3024 = 360 numbers.
+Answer = B
+
+6.	A gentleman has got 6 sorts of note papers, 7 different ink-stands and 4 different pens. In how many ways can he begin to write a letter?
+
+To determine the number of ways the gentleman can begin to write a letter using different combinations of note papers, ink-stands, and pens, we multiply the number of choices for each item.
+
+Given:
+- 6 sorts of note papers
+- 7 different ink-stands
+- 4 different pens
+
+To find the total number of ways, we multiply the number of choices for each item:
+
+Total ways = number of note papers * number of ink-stands * number of pens
+
+Total ways = 6 * 7 * 4
+
+Total ways = 168
+
+Therefore, the gentleman can begin to write a letter in 168 different ways, considering the available choices for note papers, ink-stands, and pens.
+Answer = A
+7.	How many different words can be formed from the alphabets of the word SCISSORS?
+
+
+To find the number of different words that can be formed from the letters of the word "SCISSORS," we need to consider the following:
+
+1. The word "SCISSORS" has a total of 8 letters.
+
+2. Among these 8 letters, there are repeated letters: S appears 4 times, I appears 1 time, and R appears 1 time.
+
+To calculate the number of different words, we need to use the concept of permutations with repetition. The formula for finding the number of permutations with repetition is given by:
+
+n! / (r1! * r2! * ... * rk!)
+
+Where n is the total number of objects, and r1, r2, ..., rk represent the repetitions of each object.
+
+In our case, we have:
+
+n = 8 (total letters)
+r1 = 4 (repeated S)
+r2 = 1 (repeated I)
+r3 = 1 (repeated R)
+
+Using the formula, we can calculate the number of different words:
+
+8! / (4! * 1! * 1!)
+
+Simplifying further:
+
+8! = 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1 = 40,320
+
+4! = 4 * 3 * 2 * 1 = 24
+
+1! = 1
+
+1! = 1
+
+Plugging these values into the formula:
+
+40,320 / (24 * 1 * 1)
+
+Simplifying further:
+
+40,320 / 24 = 1,680
+
+Therefore, there are 1,680 different words that can be formed from the alphabets of the word "SCISSORS."
+Answer = B
+
+8.	A team of 8 students goes on an excursion, in two cars, of which one can seat 5
+and the other only 4. In how many ways can they travel?
+
+4 students in the first car and 4 in the second.
+
+There are 8C4 = 70 ways to choose the 4 students who will go in the first car.
+Once the 4 students have been chosen, there are 4C4 = 1 way to choose the 4 students who will go in the second car.
+
+Therefore, there are a total of 70 * 1 = 70 ways to travel in this case.
+
+Total:
+The total number of ways to travel is 56 + 70 = 126.
+
+Therefore, there are 126 ways for the 8 students to travel in two cars.
+Answer = C
+
+9.	How many ways can 10 letters be posted in 5 post boxes, if each of the post
+boxes can take more than 10 letters?
+
+If each of the post boxes can take more than 10 letters, we are essentially distributing the 10 letters among the 5 post boxes without any restrictions. This problem can be solved using a concept called "stars and bars" or "balls and urns."
+
+In this case, we can imagine each letter as a star and the post boxes as dividers or bars. The number of ways to distribute the letters among the post boxes is equivalent to finding the number of ways to arrange the stars and bars.
+
+Using the stars and bars formula, the number of ways to distribute 10 letters among 5 post boxes can be calculated as:
+
+C(10 + 5 - 1, 5 - 1) = C(14, 4)
+
+Where C(n, r) denotes the combination of n items taken r at a time.
+
+Calculating this combination:
+
+C(14, 4) = 14! / (4! * (14 - 4)!) = 14! / (4! * 10!) = (14 * 13 * 12 * 11) / (4 * 3 * 2 * 1) = 1001.
+
+Therefore, there are 1001 ways to distribute 10 letters among 5 post boxes, where each post box can take more than 10 letters.
+Answer = C
+
+
+10.	In how many ways can 15 people be seated around two round tables with
+Seating capacities of 7 and 8 people?
+
+To determine the number of ways 15 people can be seated around two round tables with seating capacities of 7 and 8 people, we need to consider the arrangements of the people on each table separately.
+
+Table 1: Seating capacity of 7 people
+The first table can accommodate 7 people, so we need to choose 7 people out of the 15 to sit at this table. This can be calculated using the combination formula:
+
+C(15, 7) = 15! / (7! * (15 - 7)!) = 15! / (7! * 8!) = (15 * 14 * 13 * 12 * 11 * 10 * 9) / (7 * 6 * 5 * 4 * 3 * 2 * 1) = 6435.
+
+Table 2: Seating capacity of 8 people
+The second table can accommodate 8 people, so we need to choose 8 people out of the remaining 15 - 7 = 8 people to sit at this table. Again, we can use the combination formula:
+
+C(8, 8) = 8! / (8! * (8 - 8)!) = 8! / (8! * 0!) = 1.
+
+Since there is only one way to arrange all 8 people at the second table, we don't need to multiply the result by any factor.
+
+To find the total number of ways, we multiply the number of ways for each table:
+
+Total ways = 6435 * 1 = 6435.
+
+Therefore, there are 6435 ways to seat 15 people around two round tables with seating capacities of 7 and 8 people.
+Answer = C
+
+11.	In how many ways can the letters of the word EDUCATION be rearranged so that the relative position of the vowels and consonants remain the same as in the word EDUCATION?
+
+To determine the number of ways the letters of the word "EDUCATION" can be rearranged such that the relative position of the vowels (E, U, I, O) and consonants (D, C, T, N) remain the same as in the original word, we need to treat the vowels and consonants as distinct groups.
+
+In the word "EDUCATION," there are 5 vowels (E, U, I, O) and 4 consonants (D, C, T, N).
+
+First, let's consider the number of ways to arrange the vowels among themselves. Since there are 5 vowels, the number of ways to arrange them is given by 5!.
+
+Similarly, for the consonants, there are 4 consonants, so the number of ways to arrange them is given by 4!.
+
+Since the relative position of the vowels and consonants should remain the same, we multiply the number of ways to arrange the vowels by the number of ways to arrange the consonants.
+
+Total ways = 5! * 4!
+
+Calculating this:
+
+5! = 5 * 4 * 3 * 2 * 1 = 120
+
+4! = 4 * 3 * 2 * 1 = 24
+
+Total ways = 120 * 24 = 2,880
+
+Therefore, there are 2,880 ways to rearrange the letters of the word "EDUCATION" such that the relative position of the vowels and consonants remains the same as in the original word.
+Answer = C
+
+12.	There are 2 brothers among a group of 20 persons. In how many ways can the group be arranged around a circle so that there is exactly one person between the two brothers?
+
+To find the number of ways the group of 20 persons can be arranged around a circle such that there is exactly one person between the two brothers, we need to consider the relative positions of the two brothers and the remaining people in the group.
+
+Let's treat the two brothers as a single entity. So, we can consider them as one person. We have 19 entities in total.
+
+Now, we need to find the number of ways to arrange these 19 entities around a circle.
+
+The total number of ways to arrange n entities around a circle is (n-1)!
+
+In this case, the number of ways to arrange 19 entities around a circle is (19-1)! = 18!
+
+However, we need to account for the fact that there is exactly one person between the two brothers. We can think of the two brothers as being "stuck" together. So, instead of considering them as separate entities, we consider them as one entity.
+
+Therefore, we need to multiply the total number of ways to arrange 18 entities by 2, since the two brothers can be arranged within the group in two different ways (brother A followed by brother B or brother B followed by brother A).
+
+Total ways = 18! * 2
+
+Calculating this:
+
+18! = 18 * 17 * 16 * ... * 2 * 1
+
+Total ways = 18! * 2
+
+Therefore, there are (18! * 2) ways to arrange the group of 20 persons around a circle such that there is exactly one person between the two brothers.
+Answer = D
+
+13.	A selection is to be made for one post of principal and two posts of
+vice-principal amongst the six candidates called for the interview only two are eligible for the post of principal while they all are eligible for the post of
+vice-principal. The number of possible combinations of selectees is
+
+To determine the number of possible combinations of selectees for the positions of principal and vice-principal, we need to consider the eligibility criteria for each position.
+
+Principal:
+There are 2 eligible candidates for the post of principal. Since only one candidate can be selected, the number of possible combinations for the principal position is 2.
+
+Vice-Principal:
+All 6 candidates are eligible for the two posts of vice-principal. To determine the number of combinations for selecting 2 vice-principals from the 6 candidates, we can use the combination formula:
+
+C(6, 2) = 6! / (2! * (6 - 2)!) = 6! / (2! * 4!) = (6 * 5) / (2 * 1) = 15.
+
+Therefore, there are 15 possible combinations for selecting 2 vice-principals from the 6 eligible candidates.
+
+To find the total number of combinations for selecting the selectees, we multiply the number of combinations for the principal position by the number of combinations for the vice-principal positions:
+
+Total combinations = 2 (for principal) * 15 (for vice-principals)
+
+Total combinations = 30.
+
+Therefore, there are 30 possible combinations of selectees for the positions of principal and vice-principal.
+
+
+14.	In how many different ways can five friends sit for a photograph of five chairs in a row?
+
+If there are five friends and five chairs in a row for a photograph, the number of different ways they can sit can be calculated using the concept of permutations.
+
+In this case, we have 5 friends and 5 chairs, and we want to arrange them in a row. The first friend has 5 options to choose from for the first chair, the second friend has 4 options for the second chair, the third friend has 3 options for the third chair, the fourth friend has 2 options for the fourth chair, and the fifth friend has only 1 option for the fifth chair.
+
+The total number of ways the five friends can sit in the chairs is the product of these options:
+
+Total ways = 5 * 4 * 3 * 2 * 1
+
+Calculating this:
+
+Total ways = 120
+
+Therefore, there are 120 different ways the five friends can sit for the photograph in the five chairs in a row.
+Answer =A
+
+15.	In a room there are 12 bulbs of the same wattage, each having a separate
+switch. The number of ways to light the room with different amounts of illumination is
+
+To determine the number of ways to light the room with different amounts of illumination using the 12 bulbs, we can consider the fact that each bulb can be either "on" or "off."
+
+For each bulb, there are two possibilities: it can be either "on" or "off." Since there are 12 bulbs in the room, the total number of ways to light the bulbs is given by 2^12.
+
+Therefore, the number of ways to light the room with different amounts of illumination is 2^12, which is equal to 4096.
+
+Answer = A
