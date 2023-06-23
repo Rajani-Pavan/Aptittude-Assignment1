@@ -1,0 +1,40 @@
+Assignment-1
+
+1.	The equations of the lines x=2 & y=4 meet at the point ............. 
+
+The lines x=2 and y=4 are parallel lines. They will never meet.
+The line x=2 is a vertical line that passes through the point (2, 0). The line y=4 is a horizontal line that passes through the point (0, 4).
+Since the lines are parallel, they will never intersect.
+ 
+2.	Equations 2X+3Y=9 & 7X+9Y=-6 have how many solutions? 
+
+The equations 2X+3Y=9 and 7X+9Y=-6 have no solution.
+This can be seen by adding the two equations together. The resulting equation is 9X=3, which has no real solutions. This means that the two lines represented by the equations are parallel, and therefore they do not intersect.
+Here is a graphical representation of the two lines:
+As you can see, the two lines never intersect, which means that they have no solutions.
+
+3.	Equation ax^2+bx+c=0 will be ............. for a=b=c=0 . 
+
+If a=b=c=0, then the quadratic equation ax^2+bx+c=0 will be undefined. This is because the quadratic equation is a polynomial of degree 2, and if any of the coefficients are 0, then the polynomial will be undefined.
+The quadratic equation ax^2+bx+c=0 has two roots, which are given by the quadratic formula:
+
+x = (-b ± √(b^2 - 4ac)) / 2a
+If a=b=c=0, then the quadratic formula becomes:
+
+x = (-0 ± √(0^2 - 4 * 0 * 0)) / 2 * 0
+Simplifying, we get:
+
+x = (0 ± 0) / 0
+This is undefined, because dividing by 0 is undefined. Therefore, if a=b=c=0, then the quadratic equation ax^2+bx+c=0 will be undefined.
+ 
+4.	Income of A & B is in ratio 2:3. For example, if B’s income is Rs 3000, find out the ratio of their expenditures if their savings are Rs 500 & Rs 700, respectively. 
+
+Solution:
+•	First, we need to find the total income of A and B.
+•	Since the income of A and B is in the ratio 2:3, and B's income is Rs. 3000, then A's income is 2/5 * 3000 = Rs. 1200.
+•	Therefore, the total income of A and B is 3000 + 1200 = Rs. 4200.
+•	Now, we know that A's savings is Rs. 500 and B's savings is Rs. 700.
+•	Therefore, A's expenditure is 4200 - 500 = Rs. 3700
+•	And B's expenditure is 4200 - 700 = Rs. 3500
+•	Finally, the ratio of A and B's expenditures is 3700 : 3500 = 11:10
+Therefore, the ratio of A and B's expenditures is 11:10.
